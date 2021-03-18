@@ -1,0 +1,19 @@
+.todo-container {
+  background: #71f066;
+  background-image: url('./img/bg1.png');
+  border: 4px double rgb(63, 175, 29);
+  margin: 0 auto;
+  max-width: 42%;
+  padding: 20px;
+  border-radius:   9px 9px 9px 9px ;
+
+}
+
+@media (max-width: 700px) {
+  .todo-container  {
+    font-size: 16px;
+    margin: 8px ;
+    max-width: 100%;
+    padding: 5px;
+ }
+}
