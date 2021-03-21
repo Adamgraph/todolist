@@ -56,7 +56,7 @@ function ToDo({ name }) {
       <h1>{name}</h1>
       <h2>"to do*" list on my Starship</h2>
       <hr />
-      <h4></h4>
+      <p></p>
       <h5>(click to terminate the Do*)</h5>
       <ul>
         {items.map((item, index) => (
